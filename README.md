@@ -1,9 +1,4 @@
-<h3 align="center">FCIM FAF-203</h3>
-  <div align="center">
-    <h3>PR Laboratory Works</h3>
-    <h3>by Corolețchi Ana</h3>
-  <br/>
-  </div>
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Web%20Programming&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Corolețchi%20Ana%20FAF%20203)
 
  
 ## Description
