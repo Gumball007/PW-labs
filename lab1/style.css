@@ -1,1 +1,503 @@
-/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.page1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #f3e1d1;
+    background-image: url('elements/page1/Zigzag.png');
+    background-repeat: no-repeat;
+    background-position: right -22px;
+    background-size: 30%, 100%;
+    height: 800px;
+}
+
+.paperOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: repeat;
+    background-image: url('elements/Texture.png');
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+
+li {
+    color: #F1551C;
+    font-size: 16px;
+    font-weight: 800;
+    display: inline;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    height: auto;
+    width: 16%;
+    padding: 3rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-right: 8.7rem;
+}
+
+#strawberry-top {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    right: 33%;
+    top: -2rem;
+}
+
+#strawberry-left {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    top: 35rem;
+    left: -3.6rem;
+}
+
+#pear {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    top: 40rem;
+    left: 45rem;
+}
+
+#dots-left {
+    position: absolute;
+    height: auto;
+    top: 15rem;
+}
+
+#dots-right {
+    position: absolute;
+    height: auto;
+    top: 37rem;
+    right: 0rem;
+}
+
+#arrow-down {
+    position: absolute;
+    top: 43rem;
+    left: 26.5rem;
+    width: 15px;
+    height: auto;
+}
+
+#cart {
+    width: 24px;
+    height: auto;
+
+}
+
+#search {
+    width: 24px;
+    height: auto;
+}
+
+.inner-rotate {
+    transform: translateX(50%) translateY(50%) rotate(90deg);
+    top: 26rem;
+    right: 8rem;
+    position: absolute;
+}
+
+.inner-rotate p {
+    color: #f3e1d1;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.center-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.groceries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px 30px;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+}
+
+.groceries h1 {
+    color: #F1551C;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.groceries p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#shop-now {
+    padding: 8px 25px;
+    background-color: #f3e1d1;
+    color: #F1551C;
+    border: 4px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#shop-now:hover {
+    background-color: #E06331;
+    color: white;
+}
+
+#learn-more {
+    padding: 8px 25px;
+    background-color: #f3e1d1;
+    color: #F1551C;
+    border: 4px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#learn-more:hover {
+    background-color: #F1551C;
+    color: white;
+}
+
+#phone {
+    height: auto;
+    width: 15.5rem;
+    padding-right: 9rem;
+}
+
+.page2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    background-color: #F1551C;
+    height: 600px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#dots-left1 {
+    position: absolute;
+    height: auto;
+    top: 5rem;
+}
+
+#dots-right1 {
+    position: absolute;
+    height: auto;
+    top: 27rem;
+    right: 0rem;
+}
+
+#banana {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    top: 25rem;
+    left: 2rem;
+}
+
+#pear2 {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    top: 4rem;
+    left: 77rem;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 30px;
+    margin-top: 6rem;
+}
+
+.products h1 {
+    color: #f3e1d1;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.products h5 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.products p {
+    color: #f3e1d1;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #f3e1d1;
+    height: 800px;
+}
+
+#dots-left2 {
+    position: absolute;
+    height: auto;
+    top: 35rem;
+}
+
+#dots-right2 {
+    position: absolute;
+    height: auto;
+    right: 0rem;
+    top: 0.5rem;
+}
+
+.simple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 30px;
+    margin-top: 2rem;
+}
+
+.simple h1 {
+    color: #F1551C;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.simple p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 0 5rem 0;
+}
+
+.fruits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.shape {
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.shape img {
+    width: 200px;
+    height: auto;
+}
+
+#fruit {
+    object-fit: contain;
+    width: 200px;
+    height: auto;
+    height: 200px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.description p {
+    margin-top: 0.3rem;
+    color: #F1551C;
+}
+
+.description h1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+#add-cart {
+    padding: 8px 25px;
+    background-color: #f3e1d1;
+    color: #F1551C;
+    border: 4px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#add-cart:hover {
+    background-color: #F1551C;
+    color: white;
+}
+
+#left-arrow {
+    position: absolute;
+    top: 45rem;
+    left: 40em;
+    width: 31px;
+    height: auto;
+}
+
+#right-arrow {
+    position: absolute;
+    top: 45rem;
+    left: 45rem;
+    width: 30px;
+    height: auto;
+}
+
+.page4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;  */
+    width: auto;
+    background-color: #F1551C;
+    background-image: url('elements/page4/Zigzag2.png');
+    background-repeat: no-repeat;
+    background-position: 100% 113%;
+    background-size: 100%;
+    height: 600px;
+    border-top: 3px solid black;
+}
+
+.page4 h1 {
+    color: #f3e1d1;
+    font-size: 100px;
+    font-weight: 600;
+    padding-left: 7rem;
+}
+
+#dots-right1_1 {
+    position: absolute;
+    height: auto;
+    top: 20rem;
+    right: 0rem;
+}
+
+#card {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 8rem;
+    left: 53rem;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding-left: 7.5rem;
+    padding-bottom: 5rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8rem;
+    border-bottom: 2px solid #f3e1d1;
+    padding-bottom: 0.8rem;
+    margin-top: 2rem;
+}
+
+.question h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f3e1d1;
+} 
+
+.page5 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: #f3e1d1;
+    height: 250px;
+    border-top: 3px solid black;
+    gap: 70px;
+}
+
+.list h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+
+.list li {
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+    display: grid;
+    padding: 5px;
+    padding-left: 8rem;
+}
+
+.page6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #f3e1d1;
+    height: 30px;
+}
+
+#copyright {
+    margin-left: 8rem;
+}
