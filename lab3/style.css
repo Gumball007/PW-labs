@@ -1,0 +1,207 @@
+body {
+    height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
+    display: flex; align-items: center; justify-content: center;
+}
+
+body ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3rem;
+    margin-top: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 800px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 10px 10px #FF057C;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:#7C64D5;
+}
+
+.container .subtitle {
+    color: #7C64D5;
+    font-size: 24px;
+}
+
+.container .list-input .form-control {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-color: #7c64d5a3;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color:#7C64D5;
+}
+
+.container .list-input .add-btn {
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    background-color: #ff057e96;
+    margin-right: 10px;
+}
+
+.container .list-input .add-btn:hover {
+    background-color:#FF057C
+}
+
+.container .list-input .clear-btn {
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4cc3ffb7;
+    transition: background-color 0.2s ease-out;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.container .list-input .clear-btn:hover {
+    background-color: #4CC3FF;
+}
+
+.container input[type=text]:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.container .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 0;
+}
+
+.container .list-control .list-filters {
+    display: flex;
+    width: 100%;
+}
+
+.container .list-control .list-filters span {
+    font-size: 18px;
+    color: rgba(141, 140, 140, 0.6);
+    cursor: pointer;
+    padding: 10px 35px;
+    border-bottom: 2px solid rgba(141, 140, 140, 0.6);
+    width: 100%;
+    text-align: center;
+}
+
+.container .list-control .list-filters span:hover {
+    color: rgb(110, 110, 110);
+    border-bottom: 2px solid rgb(110, 110, 110);
+}
+
+.container .list-control .list-filters span.active {
+    color: #FF057C;
+    border-bottom: 2px solid #FF057C;
+}
+
+.container .list-content .list {
+    margin-top: 10px;
+    padding: 0 1rem;
+}
+
+.container .list-content .list .todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(141, 140, 140, 0.6);
+}
+
+.container .list-content .list .todo label {
+    display: flex;
+}
+
+.container .list-content .list .todo label input {
+    margin-right: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.container .list-content .list .todo label p {
+    font-size: 20px;
+    color: #7C64D5;
+    margin-top: 15px;
+}
+
+.container .list-content .list .todo label p.checked {
+    text-decoration: line-through;
+    color: rgba(141, 140, 140, 0.6);
+}
+
+.container .list-content .list .todo button {
+    color: rgba(141, 140, 140, 0.6);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff057e96;
+    transition: all 0.2s ease-out;
+}
+
+.container .list-content .list .todo button:hover {
+    background-color: #FF057C;
+    color: white;
+}
+
+input[type=checkbox] {
+    margin-top:1.7rem;
+    cursor: pointer;
+    color: #FF057C;
+}
+
+.any-text {
+    color:#FF057C;
+    font-size: 20px;
+}
+
+.container .list-content .list.overflow {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.container .list-content .list.overflow::-webkit-scrollbar {
+    width: 7px;
+}
+
+.container .list-content .list.overflow::-webkit-scrollbar-button {
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.container .list-content .list.overflow::-webkit-scrollbar-track-piece {
+    background: transparent;
+}
+
+.container .list-content .list.overflow::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    border: 4px solid rgba(141, 140, 140, 0.6);
+}
+
+.container .list-content .list.overflow::-webkit-scrollbar-track {
+    box-shadow: transparent;
+}
