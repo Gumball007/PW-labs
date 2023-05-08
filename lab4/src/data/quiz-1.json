@@ -1,0 +1,107 @@
+{
+  "data": {
+      "title": "Sushi Quiz",
+      "questions": [
+          {
+              "question": "What does the term 'sushi' mean?",
+              "answers": [
+                  "Raw fish",
+                  "Seasoned rice",
+                  "Seaweed",
+                  "Soy sauce"
+              ],
+              "correct_answer": "Seasoned rice"
+          },
+          {
+              "question": "What type of fish is typically used in nigiri sushi?",
+              "answers": [
+                  "Salmon",
+                  "Tuna",
+                  "Shrimp",
+                  "Eel"
+              ],
+              "correct_answer": "Tuna"
+          },
+          {
+              "question": "What is the purpose of wasabi in sushi?",
+              "answers": [
+                  "To add flavor to the rice",
+                  "To add heat to the dish",
+                  "To add texture to the fish",
+                  "To preserve the fish"
+              ],
+              "correct_answer": "To add heat to the dish"
+          },
+          {
+              "question": "What is the name for sushi rolls that are wrapped in soy paper instead of seaweed?",
+              "answers": [
+                  "Uramaki",
+                  "Temaki",
+                  "Futomaki",
+                  "Soyaki"
+              ],
+              "correct_answer": "Soyaki"
+          },
+          {
+              "question": "What is the name for the traditional Japanese knife used to prepare sushi?",
+              "answers": [
+                  "Sashimi knife",
+                  "Nakiri knife",
+                  "Gyuto knife",
+                  "Deba knife"
+              ],
+              "correct_answer": "Sashimi knife"
+          },
+          {
+              "question": "What is the name for the sweet omelet often found in sushi rolls?",
+              "answers": [
+                  "Tamago",
+                  "Tobiko",
+                  "Unagi",
+                  "Ikura"
+              ],
+              "correct_answer": "Tamago"
+          },
+          {
+              "question": "What type of sushi roll contains tempura shrimp?",
+              "answers": [
+                  "Philadelphia roll",
+                  "Spider roll",
+                  "Rainbow roll",
+                  "Dragon roll"
+              ],
+              "correct_answer": "Spider roll"
+          },
+          {
+              "question": "What is the traditional dipping sauce for sushi?",
+              "answers": [
+                  "Soy sauce",
+                  "Teriyaki sauce",
+                  "Ponzu sauce",
+                  "Eel sauce"
+              ],
+              "correct_answer": "Soy sauce"
+          },
+          {
+              "question": "What is the name for the cylindrical sushi roll that is cut into bite-size pieces?",
+              "answers": [
+                  "Nigiri",
+                  "Temaki",
+                  "Futomaki",
+                  "Maki"
+              ],
+              "correct_answer": "Maki"
+          },
+          {
+              "question": "What type of sushi roll contains both raw fish and avocado?",
+              "answers": [
+                  "California roll",
+                  "Spicy tuna roll",
+                  "Rainbow roll",
+                  "Dragon roll"
+              ],
+              "correct_answer": "California roll"
+          }
+      ]
+  }
+}

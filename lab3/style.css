@@ -2,7 +2,9 @@ body {
     height: 100vh;
     font-family: 'Space Grotesk', sans-serif;
     background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body ul {
@@ -28,7 +30,7 @@ body ul {
 .container h1 {
     font-size: 4.5rem;
     font-weight: bold;
-    color:#7C64D5;
+    color: #7C64D5;
 }
 
 .container .subtitle {
@@ -44,7 +46,7 @@ body ul {
     border-bottom-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    color:#7C64D5;
+    color: #7C64D5;
 }
 
 .container .list-input .add-btn {
@@ -62,7 +64,7 @@ body ul {
 }
 
 .container .list-input .add-btn:hover {
-    background-color:#FF057C
+    background-color: #FF057C
 }
 
 .container .list-input .clear-btn {
@@ -169,13 +171,13 @@ body ul {
 }
 
 input[type=checkbox] {
-    margin-top:1.7rem;
+    margin-top: 1.7rem;
     cursor: pointer;
     color: #FF057C;
 }
 
 .any-text {
-    color:#FF057C;
+    color: #FF057C;
     font-size: 20px;
 }
 
