@@ -13,6 +13,12 @@
 
 [:heavy_check_mark: Laboratory work 2](https://github.com/Gumball007/PW-labs/tree/main/lab2)
 
+[:heavy_check_mark: Laboratory work 3](https://github.com/Gumball007/PW-labs/tree/main/lab3)
+
+[:heavy_check_mark: Laboratory work 4](https://github.com/Gumball007/PW-labs/tree/main/lab4)
+
+[:heavy_check_mark: Laboratory work 5](https://github.com/Gumball007/PW-labs/tree/main/lab5)
+
 ## Contact
 
 :mailbox:  My email: `ana.coroletchi@isa.utm.md`
