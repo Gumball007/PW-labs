@@ -10,7 +10,7 @@ cachetools==5.3.0
 coloredlogs==15.0.1
 ConfigParser==5.3.0
 contextlib2==21.6.0
-cryptography==38.0.4
+cryptography==39.0.1
 curio==1.6
 dl==0.1.0
 docutils==0.20.1
